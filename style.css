@@ -1,0 +1,159 @@
+#title{
+color:black;
+background-color:lightgray;
+border: 2px;
+border-radius:4px;
+border-color:black;
+text-align:center;
+}
+#undertitle
+{
+ text-align:center;
+ color:black;
+ background-color:lightgray;
+
+}
+#mtb1, #landsväg1
+{
+ border: 2px solid black;
+ border-radius: 8px;
+ padding: 15px;
+ width:600px;
+ background-color: #f2f2f2;
+}
+#columm
+{
+ display: flex;
+ gap: 40px;
+}
+#landsväg2
+{
+ color:white;
+ border: 2px;
+ border-color:black;
+ border-radius: 4px;
+ background-color: #263238;
+ cursor:pointer;
+ box-shadow: 0 4px #999;
+
+}
+
+}
+#landsväg2:hover{background:black;}
+#landsväg2:active{transform: translateY(2px); box-shadow: 0 2px #999;}
+
+#mtb2
+{
+ color:white;
+ border: 2px;
+ border-color:black;
+ border-radius: 4px;
+ background-color: #263238;
+ cursor:pointer;
+ box-shadow: 0 4px #999;
+}
+#mtb2:hover{background: black;}
+#mtb2:active{transform: translateY(2px); box-shadow: 0 2px #999}
+#hem
+{
+ position: sticky;
+ top:12px;
+ color:white; 
+ border: 2px; 
+ border-color:black;
+ border-radius: 4px;
+ background-color: #263238;
+ cursor:pointer;
+ box-shadow: 0 4px #999;
+ 
+}
+#hem:hover{background: black;}
+#hem:active{transform: translateY(2px);box-shadow: 0 2px #999}
+
+#info-box {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;          
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;             
+  align-items: center;      
+  gap: 20px;                
+}
+
+#info-box img {
+  width: 250px;               
+  height: auto;
+  border-radius: 8px;
+}
+
+#info-box p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  flex: 1;                     
+}
+
+#mtb-info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#mtb-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mtb-info ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#mtb-info li {
+  margin-bottom: 10px;
+}
+#landsvag-info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#landsvag-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#landsvag-info ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#landsvag-info li {
+  margin-bottom: 10px;
+}
+#pluh
+{
+ color:white; 
+ border: 2px; 
+ border-color:black;
+ border-radius: 4px;
+ background-color: #263238;
+ cursor:pointer;
+ box-shadow: 0 4px #999;
+}
+#pluh:hover{background: black;}
+#pluh:active{transform: translateY(2px);box-shadow: 0 2px #999}
